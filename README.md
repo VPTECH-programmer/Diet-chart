@@ -2,7 +2,7 @@
 
 A fast, installable diet chart builder for **Shape Squad Fitness Centre** (Rewa, MP, India). Trainers can create a branded, macro-tracked meal plan for a client, then export it as a print-ready PDF or Excel sheet and share it straight from a phone. It is built with plain HTML, CSS and JavaScript, with no framework and no build step.
 
-**Live app:** `https://<your-username>.github.io/<your-repo>/`
+**Live app:** `https://<your-username>.github.io/<your-repo>/](https://vptech-programmer.github.io/Diet-chart/`
 
 ## Features
 
@@ -44,25 +44,12 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000.
 
-## Deploy to GitHub Pages
-
-1. Create a new **public** repository on GitHub.
-2. Upload all files from this folder, including `logo.png`, to the root of the repository.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, set **Source** to **Deploy from a branch**, choose branch `main` and folder `/ (root)`, then click **Save**.
-5. Wait a minute or two. Your site will be live at `https://<your-username>.github.io/<your-repo>/`.
-
-All paths in the app are relative, so it works under the `/<your-repo>/` subpath without changes.
-
 ## Customize
 
 - **Default gym details:** edit `DEFAULT_GYM_PROFILE` near the top of `app.js`. These can also be changed in the app with the **Edit Info** button.
 - **Colors and fonts:** edit the CSS variables at the top of `style.css`.
 - **Default meal rows:** edit `DEFAULT_MEAL_ROWS` in `app.js`.
 
-## Updating a deployed version
-
-The service worker caches the app for offline use, so visitors can keep seeing an old version after you publish a change. When you update any file, bump `CACHE_NAME` in `sw.js` (for example `shapesquad-diet-cache-v5` to `v6`) so installed copies refresh.
 
 ## Built with
 
