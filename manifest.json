@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "Shape Squad Diet Chart Generator",
+  "short_name": "ShapeSquad",
+  "description": "Professional diet chart creator and PDF generator for Shape Squad Fitness Centre (Rewa, MP, India).",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0B1F3A",
+  "theme_color": "#0B1F3A",
+  "icons": [
+    { "src": "./logo.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
