@@ -2,7 +2,7 @@
 
 A fast, installable diet chart builder for **Shape Squad Fitness Centre** (Rewa, MP, India). Trainers can create a branded, macro-tracked meal plan for a client, then export it as a print-ready PDF or Excel sheet and share it straight from a phone. It is built with plain HTML, CSS and JavaScript, with no framework and no build step.
 
-**Live app:** `https://vptech-programmer.github.io/Diet-chart/`
+**Live app:** `<a href="https://vptech-programmer.github.io/Diet-chart/">Live</a>`
 
 ## Features
 
